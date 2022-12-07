@@ -52,7 +52,7 @@ body {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-weight: 600;
   font-size: 22px;
-  color: black;
+  color: #0c0c0c;
 }
 .contenedor .cards .card .footer_card .buttons_card .buttondev {
   height: 3em;
@@ -302,20 +302,9 @@ hr.style2 {
   list-style: none;
 }
 
-h1,
-h2,
-h3,
-h4 {
-  color: #fff;
-}
-
 a {
-  color: #fff;
+  color: #ffffff;
   text-decoration: none;
-}
-
-p {
-  margin: 0.5rem 0;
 }
 
 .footer {
@@ -330,7 +319,7 @@ p {
 
 .footer,
 .footer a {
-  color: #999;
+  color: #ccc;
   font-size: 0.9rem;
 }
 
@@ -361,10 +350,10 @@ p {
 
 .footer .lang-select {
   margin-top: 2rem;
-  color: #999;
-  background-color: #000;
+  color: #ccc;
+  background-color: #0c0c0c;
   background-image: none;
-  border: 1px solid #333;
+  border: 1px solid #313131;
   padding: 1rem 1.2rem;
   border-radius: 5px;
 }
@@ -390,14 +379,14 @@ p {
 }
 
 .text-dark {
-  color: #999;
+  color: #ccc;
 }
 
 /* Buttons */
 .btn {
   display: inline-block;
   background: var(--primary-color);
-  color: #fff;
+  color: #ffffff;
   padding: 0.4rem 1.3rem;
   font-size: 1rem;
   text-align: center;
@@ -476,7 +465,7 @@ p {
 @media (max-width: 700px) {
   .showcase::after {
     background: rgba(0, 0, 0, 0.6);
-    box-shadow: inset 80px 80px 150px #000000, inset -80px -80px 150px #000000;
+    box-shadow: inset 80px 80px 150px #0c0c0c, inset -80px -80px 150px #0c0c0c;
   }
   .showcase-content h1 {
     font-size: 2.5rem;
@@ -577,7 +566,7 @@ body {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-weight: 600;
   font-size: 22px;
-  color: black;
+  color: #0c0c0c;
 }
 .contenedor .cards .card .footer_card .buttons_card .buttondev {
   height: 3em;
@@ -657,11 +646,11 @@ hr.style2 {
 
 .fade {
   height: 5px;
-  border: 5px solid black;
+  border: 5px solid #0c0c0c;
 }
 
 body {
-  background: #212121;
+  background: #313131;
   font-size: 22px;
   line-height: 32px;
   color: #ffffff;
@@ -670,7 +659,7 @@ body {
 }
 
 a {
-  color: #FFF;
+  color: #ffffff;
 }
 
 #menus {
@@ -699,7 +688,7 @@ nav ul li {
 nav a {
   display: block;
   padding: 0 10px;
-  color: #FFF;
+  color: #ffffff;
   font-size: 20px;
   line-height: 60px;
   text-decoration: none;
@@ -709,19 +698,16 @@ nav a:hover {
   background-color: #BF9A03;
 }
 
-/* Hide Dropdowns by Default */
 nav ul ul {
   display: none;
   position: absolute;
-  top: 60px; /* the height of the main nav */
+  top: 60px;
 }
 
-/* Display Dropdowns on Hover */
 nav ul li:hover > ul {
   display: inherit;
 }
 
-/* Fisrt Tier Dropdown */
 nav ul ul li {
   width: 170px;
   float: none;
@@ -729,20 +715,10 @@ nav ul ul li {
   position: relative;
 }
 
-/* Second, Third and more Tiers	*/
 nav ul ul ul li {
   position: relative;
   top: -60px;
   left: 170px;
-}
-
-/* Change this in order to change the Dropdown symbol */
-li > a:after {
-  content: " +";
-}
-
-li > a:only-child:after {
-  content: "";
 }
 
 .shell {
@@ -753,10 +729,10 @@ li > a:only-child:after {
   margin-left: 500px;
   margin-right: 500px;
   height: 850px;
-  background: rgb(255, 255, 255);
+  background: #ffffff;
   padding: 15px;
   border-radius: 6px;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  box-shadow: 0 1px 3px #0c0c0c, 0 1px 2px #0c0c0c;
   position: relative;
 }
 
@@ -770,12 +746,12 @@ li > a:only-child:after {
   -o-transform: translate(-50%);
   -khtml-transform: translate(-50%);
   width: 80%;
-  transition: all 0.2s ease-in-out;
+  transition: all 0.2 ease-in-out;
 }
 
 .wsk-cp-img img {
   width: 100%;
-  transition: all 0.2s ease-in-out;
+  transition: all 0.3 ease-in-out;
   border-radius: 6px;
 }
 
@@ -784,7 +760,7 @@ li > a:only-child:after {
 }
 
 .wsk-cp-product:hover .wsk-cp-img img {
-  box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
+  box-shadow: 0 19px 38px #0c0c0c, 0 15px 12px #0c0c0c;
 }
 
 .wsk-cp-text {
@@ -798,7 +774,7 @@ li > a:only-child:after {
   padding: 5px;
   margin-bottom: 35px;
   position: relative;
-  transition: all 0.2s ease-in-out;
+  transition: all 0.2 ease-in-out;
 }
 
 .wsk-cp-text .category > * {
@@ -820,11 +796,11 @@ li > a:only-child:after {
   color: #fff;
   box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
   border-radius: 27px;
-  transition: all 0.05s ease-in-out;
+  transition: all 0.05 ease-in-out;
 }
 
 .wsk-cp-product:hover .wsk-cp-text .category > span {
-  border-color: #ddd;
+  border-color: #ccc;
   box-shadow: none;
   padding: 11px 28px;
 }
@@ -838,7 +814,7 @@ li > a:only-child:after {
 }
 
 .wsk-cp-text .title-product h3 {
-  color: black;
+  color: #0c0c0c;
   font-size: 20px;
   font-weight: bold;
   margin: 15px auto;
@@ -852,9 +828,8 @@ li > a:only-child:after {
   margin: 0;
 }
 
-/* Truncate */
 .wsk-cp-text .description-prod {
-  color: black;
+  color: #0c0c0c;
   text-align: center;
   width: 100%;
   height: 62px;
@@ -867,15 +842,15 @@ li > a:only-child:after {
 
 a.buy-btn {
   display: block;
-  color: #212121;
+  color: #313131;
   text-align: center;
   font-size: 18px;
   width: 35px;
   height: 35px;
   line-height: 35px;
   border-radius: 50%;
-  border: 1px solid #212121;
-  transition: all 0.2s ease-in-out;
+  border: 1px solid #313131;
+  transition: all 0.2 ease-in-out;
 }
 
 .wsk-btn:hover, .wsk-btn:focus, .wsk-btn:active {
@@ -884,7 +859,7 @@ a.buy-btn {
 }
 
 .red {
-  color: #F44336;
+  color: rgb(232, 9, 9);
   font-size: 22px;
   display: inline-block;
   margin: 0 5px;
@@ -910,7 +885,7 @@ a.buy-btn {
   }
 }
 .increase {
-  color: green;
+  color: rgb(0, 140, 0);
 }
 
 .img {
@@ -920,7 +895,7 @@ a.buy-btn {
 .login {
   height: 1000px;
   width: 100%;
-  background: radial-gradient(#212121, #212121);
+  background: radial-gradient(#313131, #313131);
   position: relative;
 }
 
@@ -931,9 +906,9 @@ a.buy-btn {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  background: #fff;
+  background: #ffffff;
   border-radius: 10px;
-  box-shadow: 1px 4px 22px -8px rgba(0, 0, 0, 0.2666666667);
+  box-shadow: 1px 4px 22px -8px #0c0c0c;
   display: flex;
   overflow: hidden;
 }
@@ -947,11 +922,6 @@ a.buy-btn {
 .login_box .right {
   width: 59%;
   height: 100%;
-}
-
-.left .top_link a {
-  color: #355a2a;
-  font-weight: 400;
 }
 
 .left .top_link {
@@ -971,14 +941,14 @@ a.buy-btn {
 .left h3 {
   text-align: center;
   margin-bottom: 40px;
-  color: black;
+  color: #0c0c0c;
 }
 
 .left input {
   border: none;
   width: 80%;
   margin: 15px 0px;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.4901960784);
+  border-bottom: 1px solid #0c0c0c;
   padding: 7px 9px;
   width: 100%;
   overflow: hidden;
@@ -988,7 +958,7 @@ a.buy-btn {
 }
 
 .left {
-  background: linear-gradient(-45deg, #dcd7e0, #fff);
+  background: linear-gradient(-45deg, #ccc, #ffffff);
 }
 
 .submit {
@@ -998,15 +968,14 @@ a.buy-btn {
   display: block;
   margin: auto;
   margin-top: 120px;
-  background: #000000;
-  color: #fff;
+  background: #0c0c0c;
+  color: #ffffff;
   font-weight: bold;
-  box-shadow: 0px 9px 15px -11px rgb(88, 54, 114);
 }
 
 .right {
   background: linear-gradient(212.38deg, rgba(238, 255, 0, 0.49) 0%, rgba(255, 166, 0, 0.284) 100%), url(https://media.13newsnow.com/assets/WXIA/images/b6dcf101-7108-4a97-9e63-c37c76efc0a0/b6dcf101-7108-4a97-9e63-c37c76efc0a0_1920x1080.jpg);
-  color: #fff;
+  color: #ffffff;
   background-repeat: no-repeat;
   position: relative;
 }
@@ -1023,7 +992,7 @@ a.buy-btn {
   text-align: center;
   font-size: 50px;
   font-weight: 500;
-  text-shadow: black 0.1em 0.1em 0.2em;
+  text-shadow: #0c0c0c 0.1em 0.1em 0.2em;
 }
 
 .right-text h5 {
@@ -1033,14 +1002,14 @@ a.buy-btn {
   font-size: 50px;
   font-weight: 400;
   margin-top: -20px;
-  text-shadow: black 0.1em 0.1em 0.2em;
+  text-shadow: #0c0c0c 0.1em 0.1em 0.2em;
 }
 
 .right .right-inductor {
   position: absolute;
   width: 70px;
   height: 7px;
-  background: rgba(255, 255, 255, 0);
+  background: #313131;
   left: 50%;
   bottom: 70px;
   transform: translate(-50%, 0%);
@@ -1059,7 +1028,7 @@ a.buy-btn {
 .register {
   height: 1000px;
   width: 100%;
-  background: radial-gradient(#212121, #212121);
+  background: radial-gradient(#313131, #313131);
   position: relative;
 }
 
@@ -1070,9 +1039,9 @@ a.buy-btn {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  background: #fff;
+  background: #ffffff;
   border-radius: 10px;
-  box-shadow: 1px 4px 22px -8px rgba(0, 0, 0, 0.2666666667);
+  box-shadow: 1px 4px 22px -8px #0c0c0c;
   display: flex;
   overflow: hidden;
 }
@@ -1110,14 +1079,14 @@ a.buy-btn {
 .left_register h3 {
   text-align: center;
   margin-bottom: 40px;
-  color: black;
+  color: #0c0c0c;
 }
 
 .left_register input {
   border: none;
   width: 80%;
   margin: 15px 0px;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.4901960784);
+  border-bottom: 1px solid #0c0c0c;
   padding: 7px 9px;
   width: 100%;
   overflow: hidden;
@@ -1127,7 +1096,7 @@ a.buy-btn {
 }
 
 .left_register {
-  background: linear-gradient(-45deg, #dcd7e0, #fff);
+  background: linear-gradient(-45deg, #ccc, #ffffff);
 }
 
 .submit_register {
@@ -1137,15 +1106,14 @@ a.buy-btn {
   display: block;
   margin: auto;
   margin-top: 15px;
-  background: #000000;
-  color: #fff;
+  background: #0c0c0c;
+  color: #ffffff;
   font-weight: bold;
-  box-shadow: 0px 9px 15px -11px rgb(88, 54, 114);
 }
 
 .right_register {
   background: linear-gradient(212.38deg, rgba(238, 255, 0, 0.49) 0%, rgba(255, 166, 0, 0.284) 100%), url(https://www.federalreserve.gov/photogallery/files/ec_05.jpg);
-  color: #fff;
+  color: #ffffff;
   background-repeat: no-repeat;
   position: relative;
 }
@@ -1162,7 +1130,7 @@ a.buy-btn {
   text-align: center;
   font-size: 50px;
   font-weight: 500;
-  text-shadow: black 0.1em 0.1em 0.2em;
+  text-shadow: #0c0c0c 0.1em 0.1em 0.2em;
 }
 
 .right_register-text h5 {
@@ -1172,14 +1140,14 @@ a.buy-btn {
   font-size: 50px;
   font-weight: 400;
   margin-top: -20px;
-  text-shadow: black 0.1em 0.1em 0.2em;
+  text-shadow: #0c0c0c 0.1em 0.1em 0.2em;
 }
 
 .right_register .right-inductor_register {
   position: absolute;
   width: 70px;
   height: 7px;
-  background: rgba(255, 255, 255, 0);
+  background: #313131;
   left: 50%;
   bottom: 70px;
   transform: translate(-50%, 0%);
@@ -1204,13 +1172,12 @@ a.buy-btn {
 
 .header_form img {
   margin-top: 20px;
-  /* height: 100px; */
   width: 100px;
 }
 
 #container_form {
-  color: white;
-  background: black;
+  color: #ffffff;
+  background: #0c0c0c;
   width: 75%;
   margin: 65px auto;
   border: 1px solid;
@@ -1221,11 +1188,11 @@ a.buy-btn {
   background: #BF9A03;
   text-align: center;
   padding: 1%;
-  color: white;
+  color: #ffffff;
 }
 
 .form_form {
-  color: white;
+  color: #ffffff;
   margin: 5% 2%;
   display: inline-block;
 }
@@ -1249,12 +1216,7 @@ a.buy-btn {
 }
 
 .h3 span {
-  color: red;
-}
-
-.fa-address-book {
-  font-size: 40px;
-  color: #f47142;
+  color: rgb(232, 9, 9);
 }
 
 .legend {
@@ -1311,7 +1273,7 @@ input[type=radio] {
 #resetButton {
   background: #BF9A03;
   padding: 15px 10px;
-  color: white;
+  color: #ffffff;
   cursor: pointer;
   width: 90%;
   height: 70px;
@@ -1325,17 +1287,17 @@ input[type=radio] {
 
 #part-1 label:after {
   content: " *";
-  color: red;
+  color: rgb(232, 9, 9);
 }
 
 #part-2 label:after {
   content: " *";
-  color: red;
+  color: rgb(232, 9, 9);
 }
 
 #part-3 label:after {
   content: " *";
-  color: red;
+  color: rgb(232, 9, 9);
 }
 
 textarea {

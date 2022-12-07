@@ -1,7 +1,4 @@
-
-
-
-
+@import "vars.scss";
 
 .header_form img {
     animation-duration: 4s;
@@ -12,29 +9,29 @@
 
 .header_form img {
     margin-top: 20px;
-    /* height: 100px; */
-    
     width: 100px;
 }
+
 #container_form {
-    color: white;
-    background: black;
+    color: $secondary;
+    background: $primary;
     width: 75%;
     margin: 65px auto;
     border: 1px solid;
     border-radius: .5%;
 }
 .header_form {
-    background: #BF9A03;
+    background: $golden;
     text-align: center;
     padding: 1%;
-    color: white;
+    color: $secondary;
 }
 .form_form {
-    color: white;
+    color: $secondary;
     margin: 5% 2%;
     display: inline-block;
 }
+
 #part-1,
 #part-2,
 #part-3 {
@@ -51,16 +48,13 @@
     text-align: center;
 }
 .h3 span {
-    color: red;
+    color: $red;
 }
-.fa-address-book {
-    font-size: 40px;
-    color: #f47142;
-}
+
 .legend {
     font-weight: bold;
     font-size: 1.3rem;
-    border-bottom: 1px solid #BF9A03;
+    border-bottom: 1px solid $golden;
     border-width: 2px;
 }
 
@@ -105,9 +99,9 @@ input[type="radio"] {
     font-size: 25px;
 }
 #resetButton {
-    background: #BF9A03;
+    background: $golden;
     padding: 15px 10px;
-    color: white;
+    color: $secondary;
     cursor: pointer;
     width: 90%;
     height: 70px;
@@ -119,15 +113,15 @@ input[type="radio"] {
 }
 #part-1 label:after {
     content: " *";
-    color: red;
+    color: $red;
 }
 #part-2 label:after {
     content: " *";
-    color: red;
+    color: $red;
 }
 #part-3 label:after {
     content: " *";
-    color: red;
+    color: $red;
 }
 textarea {
     resize: none;

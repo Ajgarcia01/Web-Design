@@ -1,23 +1,15 @@
+@import "vars.scss";
 
 .lista-footer ul {
 	list-style: none;
 }
 
-h1,
-h2,
-h3,
-h4 {
-	color: #fff;
-}
 
 a {
-	color: #fff;
+	color: $secondary;
 	text-decoration: none;
 }
 
-p {
-	margin: 0.5rem 0;
-}
 
 .footer {
     -webkit-font-smoothing: antialiased;
@@ -31,7 +23,7 @@ p {
 
 .footer,
 .footer a {
-	color: #999;
+	color: $gray;
 	font-size: 0.9rem;
 }
 
@@ -65,10 +57,10 @@ p {
 
 .footer .lang-select {
 	margin-top: 2rem;
-	color: #999;
-	background-color: #000;
+	color: $gray;
+	background-color: $primary;
 	background-image: none;
-	border: 1px solid #333;
+	border: 1px solid $dark;
 	padding: 1rem 1.2rem;
 	border-radius: 5px;
 }
@@ -96,14 +88,14 @@ p {
 }
 
 .text-dark {
-	color: #999;
+	color: $gray;
 }
 
 /* Buttons */
 .btn {
 	display: inline-block;
 	background: var(--primary-color);
-	color: #fff;
+	color: $secondary;
 	padding: 0.4rem 1.3rem;
 	font-size: 1rem;
 	text-align: center;
@@ -193,7 +185,7 @@ p {
 @media (max-width: 700px) {
 	.showcase::after {
 		background: rgba(0, 0, 0, 0.6);
-		box-shadow: inset 80px 80px 150px #000000, inset -80px -80px 150px #000000;
+		box-shadow: inset 80px 80px 150px $primary, inset -80px -80px 150px $primary;
 	}
 
 	.showcase-content h1 {

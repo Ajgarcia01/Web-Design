@@ -1,27 +1,26 @@
+@import "vars.scss";
+
 .fade{
     height: 5px;
-	border: 5px solid black;
+	border: 5px solid $primary;
 
   }
-
 
 @import url(https://fonts.googleapis.com/css?family=Open+Sans);
 @import url(https://fonts.googleapis.com/css?family=Bree+Serif);
 
 body {
-	background: #212121;
+	background: $dark;
 	font-size:22px;
 	line-height: 32px;
-	color: #ffffff;
+	color: $secondary;
 	word-wrap:break-word !important;
 	font-family: 'Open Sans', sans-serif;
 	}
 
 a {
-	color: #FFF;
+	color: $secondary;
 }
-
-
 
 #menus {
 
@@ -53,29 +52,26 @@ nav ul li {
 nav a {
 	display:block;
 	padding:0 10px;	
-	color:#FFF;
+	color:$secondary;
 	font-size:20px;
 	line-height: 60px;
 	text-decoration:none;
 }
 
 nav a:hover { 
-	background-color: #BF9A03; 
+	background-color: $golden; 
 }
 
-/* Hide Dropdowns by Default */
 nav ul ul {
 	display: none;
 	position: absolute; 
-	top: 60px; /* the height of the main nav */
+	top: 60px; 
 }
 	
-/* Display Dropdowns on Hover */
 nav ul li:hover > ul {
 	display:inherit;
 }
 	
-/* Fisrt Tier Dropdown */
 nav ul ul li {
 	width:170px;
 	float:none;
@@ -83,14 +79,8 @@ nav ul ul li {
 	position: relative;
 }
 
-/* Second, Third and more Tiers	*/
 nav ul ul ul li {
 	position: relative;
 	top:-60px; 
 	left:170px;
 }
-
-	
-/* Change this in order to change the Dropdown symbol */
-li > a:after { content:  ' +'; }
-li > a:only-child:after { content: ''; }

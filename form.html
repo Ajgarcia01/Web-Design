@@ -7,7 +7,7 @@
   </title>
   <link rel="stylesheet" href="./scss/global.css">
 </head>
-
+<!--Header -->
 <body>
   <div class="container">
     <div class="logo"><a href="index.html"><img src="./images/logo.png"></a></div>
@@ -26,10 +26,9 @@
         <button class="button1">Be Pro</button>
       </div>
     </div>
-    
   </div>
 
-
+  <!--MENU -->
   <div id="menus">
     <hr class="style2">
     <nav>
@@ -38,178 +37,165 @@
         <li><a href="register.html">Register</a></li>
         <li><a href="form.html">To buy</a></li>
         <li><a href="buy.html">Available Bonos</a></li>
-
       </ul>
     </nav>
     <hr class="style2">
   </div>
 
-  
-        <!-- START FORM BODY -->
-        <div id="container_form">
-            <header class="header_form">
-                <img  src="./images/logo.png" alt="">
-                <h1>FORM TO BUY A BOND</h1>
-            </header>
-           
-            <h3 class="h3">Fields marked with <span>*</span> are required. </h3>
-            <form class="form_form" method="post">
-                <!-- START DIV part-1 PERSONAL INFORMATION -->
-                <div id="part-1">
-                    <fieldset class="fieldset_form">
-                        <legend class="legend"><i class="fa fa-address-book" aria-hidden="true"></i> Personal Information</legend>
-                        <br/>
-                        <label for="first-name">First Name</label>
-                        <input type="text" name="first-name" id="first-name" autofocus required>
-                        <br/>
-                        <label for="last-name">Last Name</label>
-                        <input type="text" name="last-name" id="last-name" required> 
-                        <br/>
-                        <label for="birthdate">Birth Date</label>
-                        <input type="date" name="birthdate" min="1917-01-01" id="birthdate" required>
-                        <br/>
-                        <label for="age">Age</label>
-                        <input type="number" name="age" min="0" max="100" id="age" required>
-                        <br/>
-                        <label for="gender">Gender</label>
-                        <br/>
-                        <input type="radio" name="gender" value="female" id="gender" required>Female
-                        <br/>
-                        <input type="radio" name="gender" value="male" required>Male
-                        <br/>
-                        <input type="radio" name="gender" value="other" required>Other
-                        <br/><br/>
-                        <label for="country">Select your country</label>
-                        <br/>
-                        <select name="country" id="country" required>
-                            <!-- https://www.freeformatter.com/iso-country-list-html-select.html -->
-                            <option value="" label="Select a country" selected="selected">Select a country …       </option>
-                            <option value="AF">Afghanistan</option>
-                            <option value="AX">Åland Islands</option>
-                            <option value="AL">Albania</option>
-                            <option value="DZ">Algeria</option>
-                            <option value="AS">American Samoa</option>
-                            <option value="AD">Andorra</option>
-                            <option value="AO">Angola</option>
-                            <option value="AI">Anguilla</option>
-                            <option value="AQ">Antarctica</option>
-                        </select>
-                    </fieldset>
-                </div>
-                <!-- END DIV part-1 PERSONAL INFORMATION -->
+  <!--FORM -->
+  <div id="container_form">
+    <header class="header_form">
+      <img src="./images/logo.png" alt="">
+      <h1>FORM TO BUY A BOND</h1>
+    </header>
+    <h3 class="h3">Fields marked with <span>*</span> are required. </h3>
+    <form class="form_form" method="post">
+      <div id="part-1">
+        <fieldset class="fieldset_form">
+          <legend class="legend"><i class="fa fa-address-book" aria-hidden="true"></i> Personal Information</legend>
+          <br />
+          <label for="first-name">First Name</label>
+          <input type="text" name="first-name" id="first-name" autofocus required>
+          <br />
+          <label for="last-name">Last Name</label>
+          <input type="text" name="last-name" id="last-name" required>
+          <br />
+          <label for="birthdate">Birth Date</label>
+          <input type="date" name="birthdate" min="1917-01-01" id="birthdate" required>
+          <br />
+          <label for="age">Age</label>
+          <input type="number" name="age" min="0" max="100" id="age" required>
+          <br />
+          <label for="gender">Gender</label>
+          <br />
+          <input type="radio" name="gender" value="female" id="gender" required>Female
+          <br />
+          <input type="radio" name="gender" value="male" required>Male
+          <br />
+          <input type="radio" name="gender" value="other" required>Other
+          <br /><br />
+          <label for="country">Select your country</label>
+          <br />
+          <select name="country" id="country" required>
+            <option value="" label="Select a country" selected="selected">Select a country … </option>
+            <option value="AF">Afghanistan</option>
+            <option value="AX">Åland Islands</option>
+            <option value="AL">Albania</option>
+            <option value="DZ">Algeria</option>
+            <option value="AS">American Samoa</option>
+            <option value="AD">Andorra</option>
+            <option value="AO">Angola</option>
+            <option value="AI">Anguilla</option>
+            <option value="AQ">Antarctica</option>
+          </select>
+        </fieldset>
+      </div>
+      <div id="part-2">
+        <fieldset class="fieldset_form">
+          <legend class="legend"><i class="fa fa-address-book" aria-hidden="true"></i> Bank Information</legend>
+          <br />
+          <label for="email">Bank Name</label>
+          <input type="email" name="email" placeholder="account@email.com" id="email" required>
+          <br />
+          <label for="password">Id Account</label>
+          <input type="password" name="password" id="password" required>
+          <br />
+          <label for="country">Select your country</label>
+          <br />
+          <select name="country" id="country" required>
+            <option value="" label="Select a country" selected="selected">Select a country … </option>
+            <option value="AF">Afghanistan</option>
+            <option value="AX">Åland Islands</option>
+            <option value="AL">Albania</option>
+            <option value="DZ">Algeria</option>
+            <option value="AS">American Samoa</option>
+            <option value="AD">Andorra</option>
+            <option value="AO">Angola</option>
+            <option value="AI">Anguilla</option>
+            <option value="AQ">Antarctica</option>
+          </select>
+          <br>
+          <label for="password">Id Bank</label>
+          <input type="password" name="password" id="password" required>
+          <br />
+          <label for="password">Ammount Capital</label>
+          <input type="password" name="password" id="password" required>
+          <br />
+        </fieldset>
+      </div>
+      <div id="part-3">
+        <fieldset class="fieldset_form">
+          <legend class="legend"> <i class="fa fa-address-book" aria-hidden="true"></i> Other &nbsp;&nbsp;Information
+          </legend>
 
-                <!-- START DIV part-2 ACCOUNT INFORMATION -->
-                <div id="part-2">
-                       
-                    <fieldset class="fieldset_form">
-                        <legend class="legend"><i class="fa fa-address-book" aria-hidden="true"></i> Bank Information</legend>
-                        <br/>
-                        <label for="email">Bank Name</label>
-                        <input type="email" name="email" placeholder="account@email.com" id="email" required>
-                        <br/>
-                        <label for="password">Id Account</label>
-                        <input type="password" name="password" id="password" required>
-                        <br/>
-                        <label for="country">Select your country</label>
-                        <br/>
-                        <select name="country" id="country" required>
-                            <!-- https://www.freeformatter.com/iso-country-list-html-select.html -->
-                            <option value="" label="Select a country" selected="selected">Select a country …       </option>
-                            <option value="AF">Afghanistan</option>
-                            <option value="AX">Åland Islands</option>
-                            <option value="AL">Albania</option>
-                            <option value="DZ">Algeria</option>
-                            <option value="AS">American Samoa</option>
-                            <option value="AD">Andorra</option>
-                            <option value="AO">Angola</option>
-                            <option value="AI">Anguilla</option>
-                            <option value="AQ">Antarctica</option>
-                        </select>
-                        <br>
-                        <label for="password">Id Bank</label>
-                        <input type="password" name="password" id="password" required>
-                        <br/>
-                        <label for="password">Ammount Capital</label>
-                        <input type="password" name="password" id="password" required>
-                        <br/>
-                     
-                    </fieldset>
-                </div>
-                <div id="part-3">
-                    <fieldset class="fieldset_form">
-                        <legend class="legend">     <i class="fa fa-address-book" aria-hidden="true"></i> Other 	&nbsp;&nbsp;Information</legend>
-  
-                        <label for="rating">Do you have politic problems?</label>
-                        <br/>
-                        <input type="radio" name="rating" id="rating" value="Very satisfied" tabindex="-1">Yes
-                        <br/>
-                        <input type="radio" name="rating" value="Satisfied" tabindex="-1">No
-                        <br/><br>
-                        <label for="message">Do you have money in other countries?</label>
-                        <br/>
-                        <input type="radio" name="rating" id="rating" value="Very satisfied" tabindex="-1">Yes
-                        <br/>
-                        <input type="radio" name="rating" value="Satisfied" tabindex="-1">No
-                        <br/>
-                        <label for="email">Identity of your country</label>
-                        <input type="email" name="email" placeholder="account@email.com" id="email" required>
-                        <br/>
-                        <label for="rating">Do you have any enterprise?</label>
-                        <br/>
-                        <input type="radio" name="rating" id="rating" value="Very satisfied" tabindex="-1">Yes
-                        <br/>
-                        <input type="radio" name="rating" value="Satisfied" tabindex="-1">No
-                        <br><br>
-                        <label for="message">Information about your enterprise?</label>
-                        <br>
-                        <textarea rows="5" cols="50" id="message" tabindex="-1"></textarea>
-   						<input type="submit" id="submitButton" name="submitButton" value="Send-message">
-                       
-                    </fieldset>
-                </div>
-                <!-- END DIV part-3 ACCOUNT INFORMATION -->
-            </form>
-        </div>
-        <!-- END FORM BODY -->
+          <label for="rating">Do you have politic problems?</label>
+          <br />
+          <input type="radio" name="rating" id="rating" value="Very satisfied" tabindex="-1">Yes
+          <br />
+          <input type="radio" name="rating" value="Satisfied" tabindex="-1">No
+          <br /><br>
+          <label for="message">Do you have money in other countries?</label>
+          <br />
+          <input type="radio" name="rating" id="rating" value="Very satisfied" tabindex="-1">Yes
+          <br />
+          <input type="radio" name="rating" value="Satisfied" tabindex="-1">No
+          <br />
+          <label for="email">Identity of your country</label>
+          <input type="email" name="email" placeholder="account@email.com" id="email" required>
+          <br />
+          <label for="rating">Do you have any enterprise?</label>
+          <br />
+          <input type="radio" name="rating" id="rating" value="Very satisfied" tabindex="-1">Yes
+          <br />
+          <input type="radio" name="rating" value="Satisfied" tabindex="-1">No
+          <br><br>
+          <label for="message">Information about your enterprise?</label>
+          <br>
+          <textarea rows="5" cols="50" id="message" tabindex="-1"></textarea>
+          <input type="submit" id="submitButton" name="submitButton" value="Send">
+        </fieldset>
+      </div>
+    </form>
+  </div>
 
-
-        <footer class="footer">
-          <p>Questions? Call <b>1-866-579-7172</b> </p>
-          <div class="footer-cols lista-footer">
-            <ul>
-              <li>
-                <h3>FYQ</h3>
-              </li>
-              <li><a href="#">Investor Relations</a></li>
-              <li><a href="#">Corporate Information</a></li>
-              <li><a href="#">Reserve Federal Originals</a></li>
-            </ul>
-            <ul>
-              <li>
-                <h3>Help Center</h3>
-              </li>
-              <li><a href="#">Jobs</a></li>
-              <li><a href="#">Terms Of Use</a></li>
-              <li><a href="#">Contact Us</a></li>
-            </ul>
-            <ul>
-              <li>
-                <h3>Account</h3>
-              </li>
-              <li><a href="#">Your Bons</a></li>
-              <li><a href="#">Your account</a></li>
-            </ul>
-            <ul>
-              <li>
-                <h3>Buy</h3>
-              </li>
-              <li><a href="#">Buy Bonds</a></li>
-              <li><a href="#">Buy Gold</a></li>
-              <li><a href="#">Buy other</a></li>
-            </ul>
-          </div>
-          <div class="usa">This is a page of USA Goverment <i><img src="./images/usa.png" alt=""></i></div>
-        </footer>
+  <!--FOOTER -->
+  <footer class="footer">
+    <p>Questions? Call <b>1-866-579-7172</b> </p>
+    <div class="footer-cols lista-footer">
+      <ul>
+        <li>
+          <h3>FYQ</h3>
+        </li>
+        <li><a href="#">Investor Relations</a></li>
+        <li><a href="#">Corporate Information</a></li>
+        <li><a href="#">Reserve Federal Originals</a></li>
+      </ul>
+      <ul>
+        <li>
+          <h3>Help Center</h3>
+        </li>
+        <li><a href="#">Jobs</a></li>
+        <li><a href="#">Terms Of Use</a></li>
+        <li><a href="#">Contact Us</a></li>
+      </ul>
+      <ul>
+        <li>
+          <h3>Account</h3>
+        </li>
+        <li><a href="#">Your Bons</a></li>
+        <li><a href="#">Your account</a></li>
+      </ul>
+      <ul>
+        <li>
+          <h3>Buy</h3>
+        </li>
+        <li><a href="#">Buy Bonds</a></li>
+        <li><a href="#">Buy Gold</a></li>
+        <li><a href="#">Buy other</a></li>
+      </ul>
+    </div>
+    <div class="usa">This is a page of USA Goverment <i><img src="./images/usa.png" alt=""></i></div>
+  </footer>
 
 </body>
 
