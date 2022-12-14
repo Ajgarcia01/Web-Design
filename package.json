@@ -1,0 +1,22 @@
+{
+  "name": "reserva",
+  "version": "1.0.0",
+  "description": "<a name=\"readme-top\"></a>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ajgarcia01/Web-Design.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ajgarcia01/Web-Design/issues"
+  },
+  "homepage": "https://github.com/Ajgarcia01/Web-Design#readme",
+  "dependencies": {
+    "heatmap.js": "^2.0.5"
+  }
+}

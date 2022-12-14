@@ -46,7 +46,7 @@
   <div id="container_form">
     <header class="header_form">
       <img src="./images/logo.png" alt="">
-      <h1>FORM TO BUY A BOND</h1>
+      <h1>FORM TO BUY A BOND AND GOLD</h1>
     </header>
     <h3 class="h3">Fields marked with <span>*</span> are required. </h3>
     <form class="form_form" method="post">
@@ -55,16 +55,16 @@
           <legend class="legend"><i class="fa fa-address-book" aria-hidden="true"></i> Personal Information</legend>
           <br />
           <label for="first-name">First Name</label>
-          <input type="text" name="first-name" id="first-name" autofocus required>
+          <input type="text" name="first-name" placeholder="Your Name" id="first-name" autofocus required>
           <br />
           <label for="last-name">Last Name</label>
-          <input type="text" name="last-name" id="last-name" required>
+          <input type="text" name="last-name" placeholder="Your Last-Name" id="last-name" required>
           <br />
           <label for="birthdate">Birth Date</label>
           <input type="date" name="birthdate" min="1917-01-01" id="birthdate" required>
           <br />
           <label for="age">Age</label>
-          <input type="number" name="age" min="0" max="100" id="age" required>
+          <input type="number" name="age" min="18" max="100" id="age" required>
           <br />
           <label for="gender">Gender</label>
           <br />
@@ -95,10 +95,10 @@
           <legend class="legend"><i class="fa fa-address-book" aria-hidden="true"></i> Bank Information</legend>
           <br />
           <label for="email">Bank Name</label>
-          <input type="email" name="email" placeholder="account@email.com" id="email" required>
+          <input type="email" name="email" placeholder="Your bank name" id="email" required>
           <br />
           <label for="password">Id Account</label>
-          <input type="password" name="password" id="password" required>
+          <input type="password" placeholder="314135136136326546" name="password" id="password" required>
           <br />
           <label for="country">Select your country</label>
           <br />
@@ -116,10 +116,10 @@
           </select>
           <br>
           <label for="password">Id Bank</label>
-          <input type="password" name="password" id="password" required>
+          <input type="password"  placeholder="314135136136326546"  name="password" id="password" required>
           <br />
           <label for="password">Ammount Capital</label>
-          <input type="password" name="password" id="password" required>
+          <input type="number" min="1000" max="500000" name="password" id="password" required>
           <br />
         </fieldset>
       </div>
@@ -139,9 +139,9 @@
           <input type="radio" name="rating" id="rating" value="Very satisfied" tabindex="-1">Yes
           <br />
           <input type="radio" name="rating" value="Satisfied" tabindex="-1">No
-          <br />
+          <br /><br>
           <label for="email">Identity of your country</label>
-          <input type="email" name="email" placeholder="account@email.com" id="email" required>
+          <input type="email" name="email" placeholder="491284712JDSB" id="email" required>
           <br />
           <label for="rating">Do you have any enterprise?</label>
           <br />
@@ -151,52 +151,50 @@
           <br><br>
           <label for="message">Information about your enterprise?</label>
           <br>
-          <textarea rows="5" cols="50" id="message" tabindex="-1"></textarea>
+          <textarea rows="5" cols="50" id="message" tabindex="-1" placeholder="About your enterprise"></textarea>
           <input type="submit" id="submitButton" name="submitButton" value="Send">
         </fieldset>
       </div>
     </form>
   </div>
 
-  <!--FOOTER -->
-  <footer class="footer">
-    <p>Questions? Call <b>1-866-579-7172</b> </p>
-    <div class="footer-cols lista-footer">
-      <ul>
-        <li>
-          <h3>FYQ</h3>
-        </li>
-        <li><a href="#">Investor Relations</a></li>
-        <li><a href="#">Corporate Information</a></li>
-        <li><a href="#">Reserve Federal Originals</a></li>
-      </ul>
-      <ul>
-        <li>
-          <h3>Help Center</h3>
-        </li>
-        <li><a href="#">Jobs</a></li>
-        <li><a href="#">Terms Of Use</a></li>
-        <li><a href="#">Contact Us</a></li>
-      </ul>
-      <ul>
-        <li>
-          <h3>Account</h3>
-        </li>
-        <li><a href="#">Your Bons</a></li>
-        <li><a href="#">Your account</a></li>
-      </ul>
-      <ul>
-        <li>
-          <h3>Buy</h3>
-        </li>
-        <li><a href="#">Buy Bonds</a></li>
-        <li><a href="#">Buy Gold</a></li>
-        <li><a href="#">Buy other</a></li>
-      </ul>
-    </div>
-    <div class="usa">This is a page of USA Goverment <i><img src="./images/usa.png" alt=""></i></div>
-  </footer>
-
+    <!--Footer -->
+    <footer class="footer">
+      <p>Questions? Call <b>1-866-579-7172</b> </p>
+      <div class="footer-cols lista-footer">
+        <ul>
+          <li>
+            <h3>FAQ</h3>
+          </li>
+          <li><a href="faq.html">About This Site</a></li>
+          <li><a href="faq.html">About Gold</a></li>
+          <li><a href="faq.html">About The Bonds</a></li>
+        </ul>
+        <ul>
+          <li>
+            <h3>Help Center</h3>
+          </li>
+          <li><a href="index.html">Jobs</a></li>
+          <li><a href="index.html">Terms Of Use</a></li>
+          <li><a href="form.html">Contact Us</a></li>
+        </ul>
+        <ul>
+          <li>
+            <h3>Account</h3>
+          </li>
+          <li><a href="buy.html">Your Bons</a></li>
+          <li><a href="buy.html">Your account</a></li>
+        </ul>
+        <ul>
+          <li>
+            <h3>Buy</h3>
+          </li>
+          <li><a href="buy.html">Buy Bonds</a></li>
+          <li><a href="buy.html">Buy Gold</a></li>
+          <li><a href="buy.html">Buy other</a></li>
+        </ul>
+      </div>
+      <div class="usa">This is a page of USA Goverment <i><img src="./images/usa.png" alt=""></i></div>
+    </footer>
 </body>
-
 </html>
