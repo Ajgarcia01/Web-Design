@@ -5,29 +5,25 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title> The Federal Reserve
   </title>
-  <link rel="stylesheet" href="./scss/global.css">
+  <link rel="stylesheet" href="./styles/bootstrap.css">
 </head>
 <!-- HEADER -->
 
 <body>
-  <div class="container">
-    <div class="logo"><a href="index.html"><img src="./images/logo.png"></a></div>
-    <form>
-      <input style="border: none;" class="search" type="text" placeholder="  Search for anything" />
+ <!--Header -->
+ <nav class="navbar navbar-expand-lg navbar-light bg-light topito">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+  </button>
+  <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+    <a  href="index.html"><img class="logo_page" src="./images/logo.png" alt="logo"></a>
+    <form class="form my-2 my-lg-0">
+      <input class="barra_busqueda" type="search" placeholder="Search" aria-label="Search">
+      <button class="botones_navbar" type="submit">Log In</button>
+      <button class="botones_navbar" type="submit">Sign In</button>
+      <button class="botones_navbar" type="submit">Buy</button>
     </form>
-    <div class="navbar">
-      <div class="user_icon"> <img class="user" src="images/user.png" alt=""></div>
-      <div class="item1">
-        <button class="button1"><a href="register.html">Sign In</a></button>
-      </div>
-      <div class="item2">
-        <button class="button1"><a href="login.html">Log In</a></button>
-      </div>
-      <div class="item3">
-        <button class="button1"><a href="buy.html">Buy</a></button>
-      </div>
-    </div>
   </div>
+</nav>
   <!-- MENU -->
   <div id="menus">
     <hr class="style2">
@@ -54,18 +50,21 @@
           <p>The Federal Reserve, the central bank of the United States, provides the nation with a safe, flexible, and stable monetary and financial system.</p>
         </div>
       </div>
+      <br>
       <div class="accordion-item">
         <button id="accordion-button-2" aria-expanded="false"><span class="accordion-title">What is the page content?</span><span class="iconono" aria-hidden="true"></span></button>
         <div class="accordion-content">
           <p>The page has four parts. The first is the home page where we can find current economic and political news. The second we are going to find a record, for new users. We continue with a form to be able to buy and sell bonds and gold and to finalize a list of available items where gold items and state bonds enter.</p>
         </div>
       </div>
+      <br>
       <div class="accordion-item">
         <button id="accordion-button-2" aria-expanded="false"><span class="accordion-title">How fill the form about the purchase and sell?</span><span class="iconono" aria-hidden="true"></span></button>
         <div class="accordion-content">
           <p>First of all, we should fill in different fields where we must establish our name, surname, date of birth, age, gender and our country. Later we continue with our financial information where we will have to put the name of the bank, bank account, country of the bank, approximate amount of money. To finish a series of mandatory questions such as if you have political problems, if you have money in other countries, ID of your country, if you have any company and information about it.</p>
         </div>
       </div>
+      <br>
       <h4>About Gold</h4>
       <div class="accordion-item">
         <button id="accordion-button-1" aria-expanded="false"><span class="accordion-title">What is the gold  and how do he work your sale?</span><span class="iconono" aria-hidden="true"></span></button>
@@ -73,24 +72,28 @@
           <p>Gold is a precious metal that is often used as a form of investment. It is considered to be a safe haven asset, as its value tends to be stable or increase during times of economic uncertainty. Gold is also used in the production of jewelry, electronics, and other products. To sell gold, you need to find a buyer who is willing to pay the current market price for your gold. The market price of gold is determined by supply and demand, as well as global economic conditions and geopolitical events.</p> <br>
         </div>
       </div>
+      <br>
       <div class="accordion-item">
         <button id="accordion-button-1" aria-expanded="false"><span class="accordion-title">What is the current gold price in the market?</span><span class="iconono" aria-hidden="true"></span></button>
         <div class="accordion-content">
           <p>The current gold price in the market depends on various factors, including global economic conditions, demand and supply, and geopolitical events. You can check the current gold price on financial news websites or by contacting a gold dealer.</p>
         </div>
       </div>
+      <br>
       <div class="accordion-item">
         <button id="accordion-button-2" aria-expanded="false"><span class="accordion-title">Where can I sell my gold and get the best price?</span><span class="iconono" aria-hidden="true"></span></button>
         <div class="accordion-content">
           <p>You can sell your gold at a number of places, including gold dealers, pawn shops, and online marketplaces. It is important to shop around and compare prices before selling your gold to ensure that you get the best price. You can also check online reviews and ask for recommendations from friends or family to find a reputable and trustworthy buyer.</p>
         </div>
       </div>
+      <br>
       <div class="accordion-item">
         <button id="accordion-button-3" aria-expanded="false"><span class="accordion-title">What are the different types of gold that I can sell?</span><span class="iconono" aria-hidden="true"></span></button>
         <div class="accordion-content">
           <p>There are various types of gold that you can sell, including gold bars, coins, and jewelry. The type of gold that you have will determine its value and the price you will receive for it.</p>
         </div>
       </div>
+      <br>
       <h4>About Bonds</h4>
       <div class="accordion-item">
         <button id="accordion-button-4" aria-expanded="false"><span class="accordion-title">What are government bonds and how do they work?</span><span class="iconono" aria-hidden="true"></span></button>
@@ -98,12 +101,14 @@
           <p>Government bonds are a type of debt securities issued by the government to finance its activities. They are typically considered to be a low-risk investment, as the government is considered to have a strong ability to repay its debts. When you buy a government bond, you are lending money to the government in exchange for regular interest payments and the return of your principal investment at the end of the bond's term.</p>
         </div>
       </div>
+      <br>
       <div class="accordion-item">
         <button id="accordion-button-5" aria-expanded="false"><span class="accordion-title">How can I ensure that the government bonds I am buying or selling are authentic?</span><span class="iconono" aria-hidden="true"></span></button>
         <div class="accordion-content">
           <p>To ensure that the government bonds you are buying or selling are authentic, you should only purchase them from reputable and trustworthy sources, such as a licensed brokerage firm or a bank. You should also carefully review the bond's documentation, including the issuer, the face value, the interest rate, and the maturity date.</p>
         </div>
       </div>
+      <br>
       <div class="accordion-item">
         <button id="accordion-button-5" aria-expanded="false"><span class="accordion-title">Are there any fees or commissions associated with buying or selling government bonds? How can I minimize them?</span><span class="iconono" aria-hidden="true"></span></button>
         <div class="accordion-content">

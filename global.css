@@ -1,0 +1,112 @@
+/*
+Error: Invalid CSS after "...ame}: #{$value}": expected "{", was ";"
+        on line 58 of node_modules/bootstrap/scss/mixins/_utilities.scss
+        from line 18 of node_modules/bootstrap/scss/_mixins.scss
+        from line 10 of ./node_modules/bootstrap/scss/bootstrap.scss
+
+53:         /* rtl:begin:remove *\/
+54:       }
+55: 
+56:       @if $is-css-var {
+57:         .#{$property-class + $infix + $property-class-modifier} {
+58:           --#{$prefix}#{$css-variable-name}: #{$value};
+59:         }
+60: 
+61:         @each $pseudo in $state {
+62:           .#{$property-class + $infix + $property-class-modifier}-#{$pseudo}:#{$pseudo} {
+63:             --#{$prefix}#{$css-variable-name}: #{$value};
+
+Backtrace:
+node_modules/bootstrap/scss/mixins/_utilities.scss:58
+node_modules/bootstrap/scss/_mixins.scss:18
+./node_modules/bootstrap/scss/bootstrap.scss:10
+C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.4.25/lib/sass/scss/parser.rb:1207:in `expected'
+C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.4.25/lib/sass/scss/parser.rb:1137:in `expected'
+C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.4.25/lib/sass/scss/parser.rb:1132:in `tok!'
+C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.4.25/lib/sass/scss/parser.rb:665:in `block'
+C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.4.25/lib/sass/scss/parser.rb:735:in `declaration_or_ruleset'
+C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.4.25/lib/sass/scss/parser.rb:685:in `block_child'
+C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.4.25/lib/sass/scss/parser.rb:674:in `block_contents'
+C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.4.25/lib/sass/scss/parser.rb:666:in `block'
+C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.4.25/lib/sass/scss/parser.rb:735:in `declaration_or_ruleset'
+C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.4.25/lib/sass/scss/parser.rb:685:in `block_child'
+C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.4.25/lib/sass/scss/parser.rb:674:in `block_contents'
+C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.4.25/lib/sass/scss/parser.rb:666:in `block'
+C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.4.25/lib/sass/scss/parser.rb:319:in `if_directive'
+C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.4.25/lib/sass/scss/parser.rb:222:in `special_directive'
+C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.4.25/lib/sass/scss/parser.rb:197:in `directive'
+C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.4.25/lib/sass/scss/parser.rb:685:in `block_child'
+C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.4.25/lib/sass/scss/parser.rb:677:in `block_contents'
+C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.4.25/lib/sass/scss/parser.rb:666:in `block'
+C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.4.25/lib/sass/scss/parser.rb:319:in `if_directive'
+C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.4.25/lib/sass/scss/parser.rb:222:in `special_directive'
+C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.4.25/lib/sass/scss/parser.rb:197:in `directive'
+C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.4.25/lib/sass/scss/parser.rb:685:in `block_child'
+C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.4.25/lib/sass/scss/parser.rb:677:in `block_contents'
+C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.4.25/lib/sass/scss/parser.rb:666:in `block'
+C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.4.25/lib/sass/scss/parser.rb:307:in `each_directive'
+C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.4.25/lib/sass/scss/parser.rb:222:in `special_directive'
+C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.4.25/lib/sass/scss/parser.rb:197:in `directive'
+C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.4.25/lib/sass/scss/parser.rb:685:in `block_child'
+C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.4.25/lib/sass/scss/parser.rb:677:in `block_contents'
+C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.4.25/lib/sass/scss/parser.rb:666:in `block'
+C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.4.25/lib/sass/scss/parser.rb:234:in `mixin_directive'
+C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.4.25/lib/sass/scss/parser.rb:222:in `special_directive'
+C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.4.25/lib/sass/scss/parser.rb:197:in `directive'
+C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.4.25/lib/sass/scss/parser.rb:684:in `block_child'
+C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.4.25/lib/sass/scss/parser.rb:674:in `block_contents'
+C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.4.25/lib/sass/scss/parser.rb:125:in `stylesheet'
+C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.4.25/lib/sass/scss/parser.rb:41:in `parse'
+C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.4.25/lib/sass/engine.rb:409:in `_to_tree'
+C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.4.25/lib/sass/engine.rb:315:in `to_tree'
+C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:327:in `block in visit_import'
+C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.4.25/lib/sass/stack.rb:88:in `block in with_import'
+C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.4.25/lib/sass/stack.rb:115:in `with_frame'
+C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.4.25/lib/sass/stack.rb:88:in `with_import'
+C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:326:in `visit_import'
+C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.4.25/lib/sass/tree/visitors/base.rb:36:in `visit'
+C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
+C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.4.25/lib/sass/stack.rb:79:in `block in with_base'
+C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.4.25/lib/sass/stack.rb:115:in `with_frame'
+C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.4.25/lib/sass/stack.rb:79:in `with_base'
+C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:162:in `visit'
+C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:329:in `block (2 levels) in visit_import'
+C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:329:in `map'
+C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:329:in `block in visit_import'
+C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.4.25/lib/sass/stack.rb:88:in `block in with_import'
+C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.4.25/lib/sass/stack.rb:115:in `with_frame'
+C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.4.25/lib/sass/stack.rb:88:in `with_import'
+C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:326:in `visit_import'
+C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.4.25/lib/sass/tree/visitors/base.rb:36:in `visit'
+C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
+C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.4.25/lib/sass/stack.rb:79:in `block in with_base'
+C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.4.25/lib/sass/stack.rb:115:in `with_frame'
+C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.4.25/lib/sass/stack.rb:79:in `with_base'
+C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:162:in `visit'
+C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.4.25/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.4.25/lib/sass/tree/visitors/base.rb:52:in `map'
+C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.4.25/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:171:in `block in visit_children'
+C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:183:in `with_environment'
+C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:170:in `visit_children'
+C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.4.25/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:190:in `visit_root'
+C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.4.25/lib/sass/tree/visitors/base.rb:36:in `visit'
+C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:161:in `visit'
+C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:10:in `visit'
+C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.4.25/lib/sass/tree/root_node.rb:36:in `css_tree'
+C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.4.25/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
+C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.4.25/lib/sass/engine.rb:384:in `_render_with_sourcemap'
+C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.4.25/lib/sass/engine.rb:301:in `render_with_sourcemap'
+C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.4.25/lib/sass/exec/sass_scss.rb:391:in `run'
+C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.4.25/lib/sass/exec/sass_scss.rb:63:in `process_result'
+C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.4.25/lib/sass/exec/base.rb:52:in `parse'
+C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.4.25/lib/sass/exec/base.rb:19:in `parse!'
+C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.4.25/bin/sass:13:in `<top (required)>'
+C:/Ruby31-x64/bin/sass:32:in `load'
+C:/Ruby31-x64/bin/sass:32:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Invalid CSS after \"...ame}: #{$value}\": expected \"{\", was \";\"\A         on line 58 of node_modules/bootstrap/scss/mixins/_utilities.scss\A         from line 18 of node_modules/bootstrap/scss/_mixins.scss\A         from line 10 of ./node_modules/bootstrap/scss/bootstrap.scss\A \A 53:         /* rtl:begin:remove */\A 54:       }\A 55: \A 56:       @if $is-css-var {\A 57:         .#{$property-class + $infix + $property-class-modifier} {\A 58:           --#{$prefix}#{$css-variable-name}: #{$value};\A 59:         }\A 60: \A 61:         @each $pseudo in $state {\A 62:           .#{$property-class + $infix + $property-class-modifier}-#{$pseudo}:#{$pseudo} {\A 63:             --#{$prefix}#{$css-variable-name}: #{$value};"; }
