@@ -1,0 +1,222 @@
+[
+  {
+    "description": "",
+    "commentRange": {
+      "start": 8,
+      "end": 9
+    },
+    "context": {
+      "type": "mixin",
+      "name": "transicion",
+      "code": "\n  transition: all $duration ease-in-out;\n",
+      "line": {
+        "start": 10,
+        "end": 12
+      }
+    },
+    "output": "transicion preestablecida con una duracion determinada que es la que le pasamos",
+    "author": [
+      "JGL"
+    ],
+    "access": "public",
+    "group": [
+      "undefined"
+    ],
+    "require": [],
+    "file": {
+      "path": "_buy.scss",
+      "name": "_buy.scss"
+    }
+  },
+  {
+    "description": "",
+    "commentRange": {
+      "start": 1,
+      "end": 3
+    },
+    "context": {
+      "type": "css",
+      "name": "Cards\nPartial utilizado para las cards y su contenido almacenado en lam pagina index",
+      "value": "border-radius: 5%;\n    box-shadow: $sombra;",
+      "line": {
+        "start": 7,
+        "end": 188
+      }
+    },
+    "author": [
+      "JGL"
+    ],
+    "access": "public",
+    "group": [
+      "undefined"
+    ],
+    "file": {
+      "path": "_cards.scss",
+      "name": "_cards.scss"
+    }
+  },
+  {
+    "description": "",
+    "commentRange": {
+      "start": 5,
+      "end": 6
+    },
+    "context": {
+      "type": "mixin",
+      "name": "card_border",
+      "code": "\n    border-radius: 5%;\n    box-shadow: $sombra;\n",
+      "line": {
+        "start": 7,
+        "end": 10
+      }
+    },
+    "output": "Pondremos el radio del borde del objeto que contenga este mixin al 5% y una sombra establecida",
+    "author": [
+      "JGL"
+    ],
+    "access": "public",
+    "group": [
+      "undefined"
+    ],
+    "require": [],
+    "file": {
+      "path": "_cards.scss",
+      "name": "_cards.scss"
+    }
+  },
+  {
+    "description": "",
+    "commentRange": {
+      "start": 12,
+      "end": 13
+    },
+    "context": {
+      "type": "mixin",
+      "name": "buttonsdev",
+      "code": "\n    color: $color;\n    border-radius: $radius;\n    background-color: $background;\n    border: $border solid $color;\n",
+      "line": {
+        "start": 14,
+        "end": 19
+      }
+    },
+    "output": "Pondremos los botones que contengan este mixin con los parámetros que le pasemos, estableciendo color, border-radius,background y border",
+    "author": [
+      "JGL"
+    ],
+    "access": "public",
+    "group": [
+      "undefined"
+    ],
+    "require": [],
+    "file": {
+      "path": "_cards.scss",
+      "name": "_cards.scss"
+    }
+  },
+  {
+    "description": "",
+    "commentRange": {
+      "start": 1,
+      "end": 3
+    },
+    "context": {
+      "type": "css",
+      "name": "Footer\nPartial utilizado para la página de Footer",
+      "value": "list-style: none;",
+      "line": {
+        "start": 5,
+        "end": 246
+      }
+    },
+    "author": [
+      "JGL"
+    ],
+    "access": "public",
+    "group": [
+      "undefined"
+    ],
+    "file": {
+      "path": "_footer.scss",
+      "name": "_footer.scss"
+    }
+  },
+  {
+    "description": "",
+    "commentRange": {
+      "start": 1,
+      "end": 3
+    },
+    "context": {
+      "type": "css",
+      "name": "Form\nPartial utilizado para la página de Form",
+      "value": "animation-duration: 4s;\n    animation-fill-mode: forwards;\n    animation-name: upsideDown;\n    animation-delay: .5s;",
+      "line": {
+        "start": 5,
+        "end": 215
+      }
+    },
+    "author": [
+      "JGL"
+    ],
+    "access": "public",
+    "group": [
+      "undefined"
+    ],
+    "file": {
+      "path": "_form.scss",
+      "name": "_form.scss"
+    }
+  },
+  {
+    "description": "",
+    "commentRange": {
+      "start": 1,
+      "end": 3
+    },
+    "context": {
+      "type": "mixin",
+      "name": "Header\n Partial utilizado para la página de Header\n @author JGL",
+      "code": "\n  color: $color;\n  border-radius: $radius;\n  background-color: $background;\n  border: $border solid $color;\n",
+      "line": {
+        "start": 5,
+        "end": 10
+      }
+    },
+    "access": "public",
+    "group": [
+      "undefined"
+    ],
+    "require": [],
+    "file": {
+      "path": "_header.scss",
+      "name": "_header.scss"
+    }
+  },
+  {
+    "description": "",
+    "commentRange": {
+      "start": 1,
+      "end": 3
+    },
+    "context": {
+      "type": "css",
+      "name": "Menu\nPartial utilizado para la página de Menu",
+      "value": "height: 5px;\n\tborder: 5px solid $primary;",
+      "line": {
+        "start": 5,
+        "end": 89
+      }
+    },
+    "author": [
+      "JGL"
+    ],
+    "access": "public",
+    "group": [
+      "undefined"
+    ],
+    "file": {
+      "path": "_menu.scss",
+      "name": "_menu.scss"
+    }
+  }
+]
